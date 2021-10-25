@@ -743,6 +743,13 @@
         </div>
     </section>
     <section id="contato">
+        @if($message = Session::get('success'))
+        <div id="/#enviado" class="mt-2">
+            <p class="px-4 py-2 mx-4 mt-10 bg-red-300 rounded-md shadow-md">
+                {{ $message }}
+            </p>
+        </div>
+        @endif
         <div class="mt-5 md:mt-0 md:col-span-2">
             <form action="{{ url('/contato') }}" method="POST"> 
                 @csrf
@@ -773,13 +780,6 @@
                         </div>
                     </div>
             </form>
-            @if($message = Session::get('success'))
-            <div id="/#email-enviado" class="mt-2">
-                <p>
-                    {{ $message }}
-                </p>
-            </div>
-            @endif
         </div>
     </section>
     <script src="js/app.js"></script>

@@ -17,6 +17,6 @@ class ContatoController extends Controller
         );
 
         Mail::to('contato@trendom.online')->send(new Contato($data));
-        return redirect('/#email-enviado')->with('success', 'Agradecemos o seu contato!');
+        return redirect('/#enviado')->with('success', 'Agradecemos o seu contato!');
     }
 }
