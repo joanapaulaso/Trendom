@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contato;
+
+class ContatoController extends Controller
+{
+    function send(Request $request)
+    {
+        $data = array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'msg' => $request->msg
+        );
+
+        Mail::to('contato@trendom.online')->send(new Contato($data));
+        return redirect('/#email-enviado')->with('success', 'Agradecemos o seu contato!');
+    }
+}

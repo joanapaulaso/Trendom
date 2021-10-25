@@ -1,0 +1,6 @@
+@import './built.css';
+@import '../../node_modules/@glidejs/glide/dist/css/glide.core.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
