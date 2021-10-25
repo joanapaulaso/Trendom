@@ -1025,6 +1025,9 @@ video {
 .font-medium{
 	font-weight: 500;
 }
+.font-extrabold{
+	font-weight: 800;
+}
 .text-white{
 	--tw-text-opacity: 1;
 	color: rgba(255, 255, 255, var(--tw-text-opacity));

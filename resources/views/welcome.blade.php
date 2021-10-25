@@ -745,7 +745,7 @@
     <section id="contato">
         @if($message = Session::get('success'))
         <div id="#enviado" class="mt-2">
-            <p class="px-4 py-2 mx-4 mt-10 bg-red-300 rounded-md shadow-md">
+            <p class="px-4 py-2 mx-4 mt-10 bg-red-300 rounded-md shadow-md font-extrabold">
                 {{ $message }}
             </p>
         </div>
