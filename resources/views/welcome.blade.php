@@ -742,7 +742,7 @@
             </div>
         </div>
     </section>
-    <section id="contato">
+    <section id="contato" class="mt-32">
         @if($message = Session::get('success'))
         <div id="enviado" class="mt-2">
             <p class="px-4 py-2 mx-4 mt-10 bg-red-300 rounded-md shadow-md font-bold">
@@ -751,6 +751,12 @@
         </div>
         @endif
         <div class="mt-5 md:mt-0 md:col-span-2">
+            <div class="font-sub ml-4 text-2xl font-semibold flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 self-center mr-3" fill="none" viewBox="0 0 24 24" stroke="rgba(37, 99, 235)">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                Contato
+            </div>
             <form action="{{ url('/contato') }}" method="POST"> 
                 @csrf
                 <div class="shadow overflow-hidden">
