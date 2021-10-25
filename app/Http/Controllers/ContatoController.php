@@ -16,7 +16,7 @@ class ContatoController extends Controller
             'msg' => $request->msg
         );
 
-        Mail::to('contato@trendom.online')->send(new Contato($data));
+        Mail::to('scarlet.sindra@trendom.online')->send(new Contato($data));
         return redirect('/#enviado')->with('success', 'Agradecemos o seu contato!');
     }
 }
