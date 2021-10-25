@@ -744,7 +744,7 @@
     </section>
     <section id="contato">
         <div class="mt-5 md:mt-0 md:col-span-2">
-            <form action="{{ route('contato') }}" method="POST"> 
+            <form action="{{ url('/contato') }}" method="POST"> 
                 @csrf
                 <div class="shadow overflow-hidden">
                     <div class="px-4 py-5 bg-white">
