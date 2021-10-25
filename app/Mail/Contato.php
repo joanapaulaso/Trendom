@@ -30,6 +30,6 @@ class Contato extends Mailable
      */
     public function build()
     {
-        return $this->subject('Novo contato BioOmiteca')->view('template_email')->with('data', $this->data);
+        return $this->subject('Contato via site Trendom')->view('template_email')->with('data', $this->data);
     }
 }
