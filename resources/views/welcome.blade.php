@@ -138,11 +138,11 @@
         </div>
         <div class="absolute z-0 h-full px-4 tablet:px-0 tablet:w-2/3 laptop:mx-[10em] laptop:w-1/2">
             <p
-                class="text-center leading-tight tablet:text-left text-4xl tablet:text-[2.75em] laptop:text-[3em] font-semibold tablet:pt-10 desktop:pt-24">
+                class="text-center leading-tight tablet:text-left text-3xl tablet:text-[2.75em] laptop:text-[3em] font-semibold tablet:pt-10 desktop:pt-24">
                 Consultoria e Assessoria Empresarial
             </p>
             <p
-                class="text-center tablet:text-left text-2xl laptop:text-3xl tablet:w-9/12 text-gray-700 mt-10 tablet:mt-16 desktop:mt-24 font-sub">
+                class="text-center tablet:text-left text-xl laptop:text-3xl tablet:w-9/12 text-gray-700 mt-10 tablet:mt-16 desktop:mt-24 font-sub">
                 Se sua empresa está iniciando ou expandindo suas atividades, nós podemos lhe ajudar.
             </p>
             <div class="flex mt-10 tablet:">
