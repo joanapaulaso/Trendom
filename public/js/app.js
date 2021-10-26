@@ -9134,15 +9134,6 @@ tlHero.fromTo("#hero-btn", {
   duration: .8,
   ease: "back"
 }, "-=.5");
-tlHero.fromTo(".contato-btn", {
-  x: -100,
-  opacity: 0
-}, {
-  x: 0,
-  opacity: 1,
-  duration: .8,
-  ease: "back"
-}, "-=.5");
 
 /***/ }),
 
