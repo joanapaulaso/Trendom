@@ -138,14 +138,14 @@
         </div>
         <div class="absolute z-0 h-full px-4 tablet:px-0 tablet:w-2/3 laptop:mx-[10em] laptop:w-1/2">
             <p
-                class="text-center leading-tight tablet:text-left text-3xl tablet:text-[2.75em] laptop:text-[3em] font-semibold tablet:pt-10 desktop:pt-24">
+                id="title" class="text-center leading-tight tablet:text-left text-3xl tablet:text-[2.75em] laptop:text-[3em] font-semibold tablet:pt-10 desktop:pt-24">
                 Consultoria e Assessoria Empresarial
             </p>
             <p
-                class="text-center tablet:text-left text-xl laptop:text-3xl tablet:w-9/12 text-gray-700 mt-10 tablet:mt-16 desktop:mt-24 font-sub">
+            id="subtitle" class="text-center tablet:text-left text-xl laptop:text-3xl tablet:w-9/12 text-gray-700 mt-10 tablet:mt-16 desktop:mt-24 font-sub">
                 Se sua empresa está iniciando ou expandindo suas atividades, nós podemos lhe ajudar.
             </p>
-            <div class="flex mt-10 tablet:">
+            <div id="hero-btn" class="flex mt-10 tablet:">
                 <div class="w-full tablet:max-w-max text-center">
                     <button
                         class="mx-auto tablet:mx-0 tablet:mr-4 border-2 border-blue-600 bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
