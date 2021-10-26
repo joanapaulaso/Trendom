@@ -5,7 +5,7 @@ const glideOne = new Glide('.glide-1', {
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000,
 })
 glideOneInput.addEventListener('glideOneInput', function (event) {
@@ -22,7 +22,7 @@ const glideTwo = new Glide('.glide-2', {
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000,
 })
 glideTwoInput.addEventListener('glideTwoInput', function (event) {
@@ -41,7 +41,7 @@ const glideThree = new Glide('.glide-3', {
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000,
 })
 glideThreeInput.addEventListener('glideThreeInput', function (event) {
@@ -60,7 +60,7 @@ const glideFour = new Glide('.glide-4', {
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000,
 })
 glideFourInput.addEventListener('glideFourInput', function (event) {

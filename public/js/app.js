@@ -9027,7 +9027,7 @@ var glideOne = new _glidejs_glide__WEBPACK_IMPORTED_MODULE_0__["default"]('.glid
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000
 });
 glideOneInput.addEventListener('glideOneInput', function (event) {
@@ -9043,7 +9043,7 @@ var glideTwo = new _glidejs_glide__WEBPACK_IMPORTED_MODULE_0__["default"]('.glid
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000
 });
 glideTwoInput.addEventListener('glideTwoInput', function (event) {
@@ -9059,7 +9059,7 @@ var glideThree = new _glidejs_glide__WEBPACK_IMPORTED_MODULE_0__["default"]('.gl
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000
 });
 glideThreeInput.addEventListener('glideThreeInput', function (event) {
@@ -9075,7 +9075,7 @@ var glideFour = new _glidejs_glide__WEBPACK_IMPORTED_MODULE_0__["default"]('.gli
   autoplay: 5000,
   hoverpause: true,
   perView: 1,
-  animationDuration: 500,
+  animationDuration: 1000,
   rewindDuration: 1000
 });
 glideFourInput.addEventListener('glideFourInput', function (event) {
