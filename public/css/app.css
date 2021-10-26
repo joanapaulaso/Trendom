@@ -1278,6 +1278,10 @@ video {
 		padding-top: 2.5rem;
 	}
 
+	.tablet\:pl-4{
+		padding-left: 1rem;
+	}
+
 	.tablet\:text-left{
 		text-align: left;
 	}

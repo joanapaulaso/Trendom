@@ -136,7 +136,7 @@
         <div
             class="absolute bg-hero-2 bg-150% bg-bottom bg-no-repeat tablet:bg-rt tablet:bg-60% laptop:bg-50% laptop:bg-rt-1 w-full h-full">
         </div>
-        <div class="absolute z-0 h-full px-4 tablet:px-0 tablet:w-2/3 laptop:mx-[10em] laptop:w-1/2">
+        <div class="absolute z-0 h-full px-4 tablet:px-0 tablet:pl-4 tablet:w-2/3 laptop:mx-[10em] laptop:w-1/2">
             <p
                 id="title" class="text-center leading-tight tablet:text-left text-3xl tablet:text-[2.75em] laptop:text-[3em] font-semibold tablet:pt-10 desktop:pt-24">
                 Consultoria e Assessoria Empresarial
