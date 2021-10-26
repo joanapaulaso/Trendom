@@ -828,6 +828,11 @@ video {
 .w-\[14\.3em\]{
 	width: 14.3em;
 }
+.w-min{
+	width: -webkit-min-content;
+	width: -moz-min-content;
+	width: min-content;
+}
 .min-w-max{
 	min-width: -webkit-max-content;
 	min-width: -moz-max-content;
@@ -837,6 +842,16 @@ video {
 	min-width: -webkit-min-content;
 	min-width: -moz-min-content;
 	min-width: min-content;
+}
+.max-w-min{
+	max-width: -webkit-min-content;
+	max-width: -moz-min-content;
+	max-width: min-content;
+}
+.max-w-max{
+	max-width: -webkit-max-content;
+	max-width: -moz-max-content;
+	max-width: max-content;
 }
 .scale-95{
 	--tw-scale-x: .95;

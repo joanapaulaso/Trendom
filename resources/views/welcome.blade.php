@@ -146,18 +146,18 @@
                 Se sua empresa está iniciando ou expandindo suas atividades, nós podemos lhe ajudar.
             </p>
             <div id="hero-btn" class="flex mt-10 tablet:">
-                <div class="w-full tablet:max-w-max text-center">
-                    <button
-                        class="mx-auto tablet:mx-0 tablet:mr-4 border-2 border-blue-600 bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
+                <div class="w-full tablet:max-w-max text-center animate-wiggle">
+                    <a
+                        href="#servicos" class="mx-auto tablet:mx-0 tablet:mr-4 border-2 border-blue-600 bg-blue-600 text-white font-semibold p-3 rounded-md">
                         Conheça nossos serviços
-                    </button>
+                    </a>
                 </div>
                 <div
-                    class="mobile:hidden mobile:invisible tablet:block tablet:visible w-full tablet:max-w-max text-center">
-                    <button
-                        class="bg-white border-2 border-blue-600 text-blue-600 font-semibold p-3 rounded-md animate-wiggle">
+                    class="mobile:hidden mobile:invisible tablet:block tablet:visible w-full tablet:max-w-max text-center animate-wiggle">
+                    <a
+                        href="#contato" class="bg-white border-2 border-blue-600 text-blue-600 font-semibold p-3 rounded-md">
                         Contato
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -482,10 +482,12 @@
                         receitas
                         para adequação da sua empresa à realidade do mundo dos negócios.
                     </p>
-                    <button href="#contato"
-                        class="mx-auto mt-10 bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
-                        Fale conosco
-                    </button>
+                    <div class="mx-auto tablet:mx-0 mt-10 animate-wiggle max-w-max">
+                        <a href="#contato"
+                            class="bg-blue-600 text-white font-semibold p-3 rounded-md shadow-md">
+                            Fale aconosco
+                        </a>
+                    </div>
                 </div>
                 <div class="w-full flex mx-auto mt-16 tablet:justify-center">
                     <svg class="w-[18em] laptop:w-[16em]" data-name="Layer 1" viewBox="0 0 949 568.6528">
