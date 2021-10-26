@@ -617,8 +617,9 @@
                         <ul class="glide__slides">
                             <li class="glide__slide">
                                 <div id="card-curso-1" class="serv-card">
-                                    <div class="serv-card-box m-5 pr-6">
-                                        <div class="bg-curso-1 h-[10em] bg-contain bg-no-repeat rounded-md"></div>
+                                    <div class="serv-card-box flex justify-center m-5 pr-6">
+                                        <div class="bg-curso-1 w-[14.3em] h-[10em] bg-contain bg-no-repeat rounded-lg">
+                                        </div>
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <button
@@ -716,8 +717,9 @@
                         <ul class="glide__slides">
                             <li class="glide__slide">
                                 <div id="card-curso-1" class="serv-card">
-                                    <div class="serv-card-box m-5 pr-6">
-                                        <div class="bg-curso-2 h-[10em] bg-contain bg-no-repeat rounded-md"></div>
+                                    <div class="serv-card-box flex justify-center m-5 pr-6">
+                                        <div class="bg-curso-2 w-[14.3em] h-[10em] bg-contain bg-no-repeat rounded-lg">
+                                        </div>
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <button
@@ -816,8 +818,9 @@
                         <ul class="glide__slides">
                             <li class="glide__slide">
                                 <div id="card-curso-1" class="serv-card">
-                                    <div class="serv-card-box m-5 pr-6">
-                                        <div class="bg-curso-3 h-[10em] bg-contain bg-no-repeat rounded-md"></div>
+                                    <div class="serv-card-box flex justify-center m-5 pr-6">
+                                        <div class="bg-curso-3 w-[14.3em] h-[10em] bg-contain bg-no-repeat rounded-lg">
+                                        </div>
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <button
@@ -918,8 +921,9 @@
                         <ul class="glide__slides">
                             <li class="glide__slide">
                                 <div id="card-curso-1" class="serv-card curso-1">
-                                    <div class="serv-card-box m-5 pr-6">
-                                        <div class="bg-curso-4 h-[10em] bg-contain bg-no-repeat rounded-md"></div>
+                                    <div class="serv-card-box flex justify-center m-5 pr-6">
+                                        <div class="bg-curso-4 w-[14.3em] h-[10em] bg-contain bg-no-repeat rounded-lg">
+                                        </div>
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <button
@@ -1009,7 +1013,6 @@
                 </div>
             </div>
         </div>
-
     </section>
     <section id="equipe" class="bg-equipe bg-center h-screen bg-cover bg-no-repeat">
         <div class="text-center">
