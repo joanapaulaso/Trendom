@@ -625,7 +625,7 @@
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <a href="#contato"
-                                            class="mx-auto flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
+                                            class="mx-auto w-max flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -725,7 +725,7 @@
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <a href="#contato"
-                                            class="mx-auto flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
+                                            class="mx-auto w-max flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -826,7 +826,7 @@
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <a href="#contato"
-                                            class="mx-auto flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
+                                            class="mx-auto w-max flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -929,7 +929,7 @@
                                     </div>
                                     <div class="serv-card-btn pr-10">
                                         <a href="#contato"
-                                            class="mx-auto flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
+                                            class="mx-auto w-max flex bg-blue-600 text-white font-semibold p-3 rounded-md animate-wiggle">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
