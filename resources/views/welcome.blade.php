@@ -8,7 +8,7 @@
     <title>Trendom Consultoria</title>
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <section id="nav">
         <div id="nav-mobile" class="fixed z-10 bg-white shadow-sm tablet:hidden" x-data="{ isOpen: false }">
             <div class="w-screen flex justify-between">
@@ -130,12 +130,15 @@
         </div>
     </section>
     <section id="hero" class="pt-24 w-full h-screen tablet:h-[90vh]">
+        <div class="absolute top-[50%] left-[-6rem] tablet:top-0 w-full h-screen">
+            <canvas class="w-[150%] tablet:w-full" id="canvas"></canvas>
+        </div>
         <div
             class="absolute bg-hero-1 bg-110% bg-no-repeat bg-bottom tablet:bg-rt tablet:bg-60% laptop:bg-50% laptop:bg-rt-1 w-full h-full">
         </div>
-        <div
+        {{-- <div
             class="absolute bg-hero-2 bg-150% bg-bottom bg-no-repeat tablet:bg-rt tablet:bg-60% laptop:bg-50% laptop:bg-rt-1 w-full h-full">
-        </div>
+        </div> --}}
         <div class="absolute z-0 h-full px-4 tablet:px-0 tablet:pl-4 tablet:w-2/3 laptop:mx-[10em] laptop:w-1/2">
             <p
                 id="title" class="text-center leading-tight tablet:text-left text-3xl tablet:text-[2.75em] laptop:text-[3em] font-semibold tablet:pt-10 desktop:pt-24">
